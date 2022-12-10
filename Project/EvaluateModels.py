@@ -180,21 +180,6 @@ for j in range(0,100):
     #adding an overall score for model evaluation (will be the average of recall, accuracy, and f1)
     gb_df['overall_score'] = ((gb_df['accuracy']+gb_df['recall']+gb_df['f1'])/3)
 
-    
-
-#-best 3 models of each type-#
-#lr_df_avgs = lr_df.groupby['cut_off'].mean().reset_index(drop=False)
-#lr_best = lr_df_avgs.sort_values('overall_score',ascending =False).reset_index(drop = True).head(3)
-#svm_df_avgs = svm_df.groupby['kernal','cut_off'].mean().reset_index(drop=False)
-#svm_best = svm_df_avgs.sort_values('overall_score',ascending =False).reset_index(drop = True).head(3)
-#dt_df_avgs = dt_df.groupby['depth','cut_off'].mean().reset_index(drop=False)
-#dt_best = dt_df_avgs.sort_values('overall_score',ascending =False).reset_index(drop = True).head(3)
-#rf_df_avgs = rf_df.groupby['depth','n_tree','cut_off'].mean().reset_index(drop=False)
-#rf_best = rf_df_avgs.sort_values('overall_score',ascending =False).reset_index(drop = True).head(3)
-#ada_df_avgs = ada_df.groupby['depth','n_tree','learning_rate','cut_off'].mean().reset_index(drop=False)
-#ada_best = ada_df_avgs.sort_values('overall_score',ascending =False).reset_index(drop = True).head(3) 
-#gb_df_avgs = gb_df.groupby['depth','n_tree','learning_rate','cut_off'].mean().reset_index(drop=False)
-#gb_best = gb_df_avgs.sort_values('overall_score',ascending =False).reset_index(drop = True).head(3)
 
 
 #extract results for all models   
