@@ -1,4 +1,4 @@
-#To prevent Kernal issues, the models had to be run in the terminal. Therefore, I am creating this .py file to allow myself to run and evaluate
+#To prevent Kernel issues, the models had to be run in the terminal. Therefore, I am creating this .py file to allow myself to run and evaluate
 #the models. This file will define model parameters and run the models to identify the best model for predicting the winning team in an NFL game.
 
 #### importing libraries and important functions
